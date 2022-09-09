@@ -129,7 +129,7 @@
 									<div class="input-group-icon mt-10">
 										<div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
 										<div class="form-select" id="default-select"">
-											<select name="City[]" multiple>
+											<select name="city[]" multiple>
 												<option value="1">City</option>
 												<option value="Bengaluru">Bengaluru</option>
 												<option value="Delhi">Delhi</option>
@@ -138,8 +138,6 @@
 											</select>
 										</div>
 									</div>
-									
-									
 									<div class="mt-10">
 										<textarea class="single-textarea" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required></textarea>
 									</div>
