@@ -69,9 +69,9 @@
                         <li class="menu-has-children"><a href="Products.html">Products</a>
                             <ul>
                                 <li><a href="Products.html#Kitchen">Kitchen</a></li>
-								<li><a href="Products.html#Bedroom">Bedroom</a></li>
-								<li><a href="Products.html#Dining">Dining room</a></li>
-								<li><a href="Products.html#Living">Living room</a></li>
+                                <li><a href="Products.html#Bedroom">Bedroom</a></li>
+                                <li><a href="Products.html#Dining">Dining room</a></li>
+                                <li><a href="Products.html#Living">Living room</a></li>
                             </ul>
                         </li>
                         <li><a href="Offers.html">What we Offer</a></li>
@@ -114,52 +114,49 @@
                     <div class="section-top-border">
                         <div class="row">
                             <div class="col-lg-8 col-md-8">
-                                <h3 class="mb-30">Form Element</h3>
+                                <h3 class="mb-30" style="margin-bottom:10px;">Please fill out the enquiry below -</h3>
+                                <h4>Our designer will get back to you as soon as possible.</h4>
                                 <form name="Estimate" action="#" method="POST" data-netlify="true">
                                     <div class="mt-10">
-                                        <input type="text" name="first_name" placeholder="First Name"
-                                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'"
-                                            required class="single-input">
+                                        <input type="text" name="full_name" placeholder="Full Name"
+                                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'"
+                                            required class="single-input" style="background-color:rgb(192, 192, 192);">
                                     </div>
                                     <div class="mt-10">
-                                        <input type="text" name="last_name" placeholder="Last Name"
-                                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'"
-                                            class="single-input">
+                                        <input type="tel" name="Phone_no 1" placeholder="Contact Number 1"
+                                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Contact Number 1'"
+                                            required class="single-input" style="background-color:rgb(192, 192, 192);">
                                     </div>
                                     <div class="mt-10">
-                                        <input type="tel" name="Phone_no" placeholder="Phone Number"
-                                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'"
-                                            required class="single-input">
+                                        <input type="tel" name="Phone_no 2" placeholder="Contact Number 2"
+                                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Contact Number 2'"
+                                             class="single-input" style="background-color:rgb(192, 192, 192);">
                                     </div>
                                     <div class="mt-10">
                                         <input type="email" name="EMAIL" placeholder="Email address"
                                             onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'"
-                                            required class="single-input">
+                                            required class="single-input" style="background-color:rgb(192, 192, 192);">
                                     </div>
+                                    <div class="mt-10">
+                                        <input type="text" name="project_name" placeholder="Project Name"
+                                       onfocus="this.placeholder = ''" onblur="this.placeholder = 'Project Name'"
+                                       required class="single-input" style="background-color:rgb(192, 192, 192);">
+                                   </div>
                                     <div class="input-group-icon mt-10">
-                                        <div class="icon"><i class="fa fa-thumb-tack" aria-hidden="true"></i></div>
-                                        <input type="text" name="address" placeholder="Address"
-                                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address'"
-                                            required class="single-input">
-                                    </div>
-                                    <div class="input-group-icon mt-10">
-                                        <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
-                                        <div class="form-select" id="default-select"">
+                                        <div class="icon">Select City</div>
+                                        <div class="form-select" id="default-select" style="background-color:rgb(192, 192, 192);">
 											<select name=" city[]" multiple>
-                                            <option value="1">City</option>
-                                            <option value="Bengaluru">Bengaluru</option>
-                                            <option value="Delhi">Delhi</option>
-                                            <option value="Pune">Pune</option>
-                                            <option value="Uttarakhand">Uttarakhand</option>
+                                            <option value="Bangalore">Bangalore</option>
+                                            <option value="Lucknow">Lucknow</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="mt-10">
                                         <textarea type="text" name="Message" class="single-textarea"
                                             placeholder="Message" onfocus="this.placeholder = ''"
-                                            onblur="this.placeholder = 'Message'" required></textarea>
+                                            onblur="this.placeholder = 'Message'" required style="background-color:rgb(192, 192, 192);"></textarea>
                                     </div>
-                                    <div class="col-lg-12">
+                                    <div class="col-lg-12" style="margin-top:20px;">
                                         <div class="alert-msg" style="text-align: left;"></div>
                                         <button class="genric-btn primary circle" style="float: right;">Send
                                             Message</button>
